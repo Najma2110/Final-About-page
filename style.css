@@ -1,0 +1,140 @@
+ * {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+nav{
+    padding:10px 80px;
+    background:#e6d705;
+    height: 70px;
+}
+nav .bars{
+    padding: 10px 20px;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    color:rgb(12, 12, 12);
+    font-size: 21px;
+    font-weight: 600;
+    padding: 5px;
+    margin:2px 5px;
+    font-weight: bold;
+}
+    /* we used hover selector on nav menu and some focus effects ...... */
+.bars a:hover, .bars a:focus {
+    background-color: rgb(12, 11, 11);
+    color: rgb(250, 241, 250);
+    border-radius: 25px;
+    
+  }
+.center{
+    background: linear-gradient(rgba(46, 38, 42, 0.705),rgba(70, 56, 56, 0.555)), url('pics/b1.jpg');
+    height: calc(100vh - 70px);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text-container{
+    text-align: center; /*adjust text align*/
+    background-color: white;
+    
+    box-shadow: 1px 1px 2px 2px hsl(300, 27%, 2%);
+}
+.text-container p{
+max-width: 100%;
+  padding-top:0px;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  color: black;
+}
+.center h1{
+    color: rgb(250, 250, 250);
+    text-shadow: 1px 1px 1px rgb(31, 29, 29);
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: orange;
+}
+h1{
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    letter-spacing: 1px;
+}
+.center img{
+    position: relative;
+    float: left;
+}
+.center p{
+    margin-bottom: 4em;
+    width:700px;
+    font-size: 19px;
+    margin-top:10px;
+    text-align: center;
+    color:rgb(228, 212, 212);
+} *
+
+/* About Sylen starter her fra...... */
+
+.just{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.just img{
+    height: 450px;
+    width:calc(100vw - 50px);
+    margin:auto;
+}
+p{
+    font-size: 20px;
+    margin:10px;
+}
+p.text{
+    margin:auto;
+    width:1100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 1.7;
+}
+
+
+.quot{
+    font-size: 30px;
+    font-style: italic;
+    margin:20px 0;
+    margin-top: 50px;
+}
+.footer{
+    display: flex;
+    width:100%;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding:20px 0;
+}
+iframe{
+    width:calc(100vw - 50px);
+}
+.footer div{
+    max-width: 200px;
+}
+footer{
+    background:rgb(192, 190, 190);
+    padding:20px 0;
+    width:100%;
+    color:rgb(250, 246, 247);
+    font-size: 20px;
+}
+
+/*Copy from W3school.com */
+
+a:hover, a:active {
+    background-color: rgb(22, 236, 51);
+}
